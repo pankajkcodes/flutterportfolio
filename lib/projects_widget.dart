@@ -22,7 +22,7 @@ class ProjectSection extends StatelessWidget {
       "title": "Food Delivery App",
       "url": "https://github.com/pankajkcodes/foodorderingapp",
       "image":
-          "https://user-images.githubusercontent.com/74593517/134756106-af1c4411-72a4-455c-b38f-c545914cb75f.png"
+          "https://images.unsplash.com/photo-1617347454431-f49d7ff5c3b1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1715&q=80"
     },
     {
       "title": "E Learning App",
