@@ -19,14 +19,20 @@ class ProjectSection extends StatelessWidget {
           "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
     },
     {
+      "title": "Food Delivery App",
+      "url": "https://github.com/pankajkcodes/foodorderingapp",
+      "image":
+          "https://user-images.githubusercontent.com/74593517/134756106-af1c4411-72a4-455c-b38f-c545914cb75f.png"
+    },
+    {
       "title": "E Learning App",
-      "url": "codersneverquit.in",
+      "url": "pankajkcodes.com",
       "image":
           "https://images.unsplash.com/photo-1509395062183-67c5ad6faff9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
     },
     {
       "title": "Job Portal App",
-      "url": "codersneverquit.in",
+      "url": "pankajkcodes.com",
       "image":
           "https://images.unsplash.com/photo-1516131206008-dd041a9764fd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
     },
