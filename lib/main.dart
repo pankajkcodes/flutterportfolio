@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'pankajkcodes',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.amber,
       ),
       home: Scaffold(
         appBar: AppBar(

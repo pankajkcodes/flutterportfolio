@@ -48,10 +48,9 @@ class SkillsSection extends StatelessWidget {
             children: const [
               GenerateStars(skillname: 'Html/css/js', star: 4.0),
               GenerateStars(skillname: 'PHP/MySql', star: 4.0),
-              GenerateStars(skillname: 'Node js', star: 4.0),
-              GenerateStars(skillname: 'Python', star: 4.0),
               GenerateStars(skillname: 'Java/Kotlin', star: 5.0),
-              GenerateStars(skillname: 'flutter', star: 5.0),
+              GenerateStars(skillname: 'Android', star: 5.0),
+              GenerateStars(skillname: 'flutter', star: 4.0),
             ],
           ),
         ),

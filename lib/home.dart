@@ -43,18 +43,20 @@ class HeroWidget extends StatelessWidget {
       child: Stack(
         alignment: Alignment.center,
         children: [
-          Image.asset(
-            "images/computer.jpg",
-            fit: BoxFit.cover,
-            width: double.infinity,
-          ),
-          Text(
-            'Hello Everybody \n I am Pankaj Android & iOS Mobile App Developer.',
-            textAlign: TextAlign.center,
-            style: TextStyle(
-                fontSize: MediaQuery.of(context).size.width > 768 ? 50 : 30,
-                color: Colors.white,
-                backgroundColor: Theme.of(context).primaryColor),
+          // Image.asset(
+          //   "images/computer.jpg",
+          //   fit: BoxFit.cover,
+          //   width: double.infinity,
+          // ),
+          Padding(
+            padding: const EdgeInsets.all(25.0),
+            child: Text(
+                'Hello Everybody, I am PANKAJ \n Android App Developer \n with Excellent problem Solving Skill and ability to perform well in a Team. Passionate about Coding .',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: MediaQuery.of(context).size.width > 768 ? 50 : 20,
+                  color: Colors.black,
+                )),
           )
         ],
       ),
@@ -73,11 +75,10 @@ class SocialMediaSection extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         IconButton(onPressed: () {}, icon: const Icon(Icons.facebook)),
-        IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.youtube_searched_for_outlined)),
-        IconButton(onPressed: () {}, icon: const Icon(Icons.web_stories)),
-        IconButton(onPressed: () {}, icon: const Icon(Icons.gite)),
+        IconButton(onPressed: () {}, icon: Image.asset('images/yt.png')),
+        IconButton(onPressed: () {}, icon: Image.asset('images/linkedin.png')),
+        IconButton(onPressed: () {}, icon: Image.asset('images/twitter.png')),
+        IconButton(onPressed: () {}, icon: Image.asset('images/instagram.png')),
       ],
     );
   }
